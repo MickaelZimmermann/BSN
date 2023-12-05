@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Liste des utilisateurs</title>
+</head>
+
+<body>
+    <h1> Liste des utilisateurs </h1>
+    <ul>
+        <% users.forEach(function(user) { %>
+            <li>
+                <%= user.nom %>
+                    <%= user.prenom %>
+            </li>
+            <% }); %>
+    </ul>
+
+</html>
