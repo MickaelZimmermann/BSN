@@ -1,2 +1,0 @@
-# BSN
-Best Social Network
